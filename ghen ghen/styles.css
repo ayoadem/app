@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.navbar {
+    
+  }
+
+.navbar-brand {
+    margin-left: 9%;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+#navbarNav{
+    margin-left: 65%;
+    gap: 5rem;
+}
+
+
+.nav-item .header-btn{
+   background-color: aqua;
+   border-color: white;
+   border-style: solid;
+   padding: 10px 20px;
+   margin-left: 20px;
+}
+
+.content{
+    display: block; 
+    overflow: hidden;
+}
+
+
+.content .phase-1{
+    float: left;
+    margin-top: 15%;
+    margin-left: 10%;
+    line-height: 1.5;
+}
+
+.content h3{
+    color: aqua;
+}
+
+.content-img img{
+    float: right;
+    width: 30%;
+    height: 20%;
+    margin-right: 15%;
+    padding-top: 5%; 
+} 
+
+
+.lower-icon{
+    display: flex;
+    padding: 5% 15%;
+    background-color: aquamarine;
+    margin-top: 5%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.lower-icon i{
+    color: white;
+    margin-right: 50px;
+}
+
+.lower-icon p{
+   color: white; 
+}
+
+#middle-part{
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    padding: 8%;
+}
+.middle-images{
+    display: flex;
+    flex-basis: 60%;
+    overflow: hidden;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.image1{
+    width: 100%;
+}
+.image2, .image3{
+    width: calc(50% - 5px); 
+    height: 200px;
+}
+
+.middle-images img{
+    object-fit: cover;
+    width: 100%;
+}
+ .middle-content{
+    flex-basis: 40%;
+    background-color: white;
+    padding: 5%;
+    line-height: 1.5;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.phase-2{
+    background-color: aliceblue;
+    display: flex;
+    flex-basis: 60%;
+    overflow: hidden;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 8%;
+    gap: 10px
+}
+
+
+.phase-2 .build{
+    padding-top: 80px;
+    padding-left: 60px;
+}
+.phase-2 .side{
+    float: right;
+    padding: 5% 10%;
+    line-height: 1.5;
+}
+
+.side-btn{
+    background-color: aqua;
+    padding: 6% 20%;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.semi-footer{
+    display: flex;
+    flex-basis: 60%;
+    overflow: hidden;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 8%;
+    gap: 10px
+}
+
+.semi-footer .container-2{
+    padding-left: 20%;
+}
+
+.semi-footer .container-3{
+    padding-left: 10%;
+}
+
+.footer{
+    margin: 8%;
+    display: block;
+}
+
+.footer .footer-icons{
+   float: right;
+   margin: 0;
+}
+
